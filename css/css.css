@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../imagem/paper-626781_1280.jpg);
+    background-attachment:fixed;
+}
+
+.Pagina{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.Pagina h1{
+    font-family: a;
+    font-size: 100px;
+    text-align: center;
+}
+
+main{
+    background-image: linear-gradient(#333333,#666666);
+    padding: 23px;
+}
+
+main h1{
+    color: #fff;
+    margin: 20px;
+}
+
+.TamanhoCadastro{
+    height: 550px;
+    background: red;
+}
+
+.login{
+    width: 380px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: #000000;
+}
+
+.login label{
+    width: 100%;
+    color: #fff;
+    font-family: a;
+    float: left;
+    font-size: 25px;
+}
+
+.login input{
+    float: left;
+    width: 96%;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.login button{
+    background: #fff;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 90px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.login textarea{
+    width: 100%;
+    resize: none;
+    height: 140px;
+}
+
+.recado{
+    min-height: 220px;
+    width: 420px;
+    background: #000000;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.recado article{
+    background: #ffffff;
+    width: 400px;
+    min-height: 200px;
+    display: inline-block;
+    padding: 10px;
+    font-family: a;
+}
+
+.recado a{
+    color: #fff;
+    margin-left: 180px;
+}
+
+.recado p{
+    display: inline-block;
+    color: #ffffff;
+    font-family: a;
+    position: relative;
+    bottom: 50px;
+}
+
+.recado img{
+    width: 100px;
+    display: inline-block;
+    margin: 5px 0;
+    border: 2px solid #ffffff;
+}
+
+#menu{
+    background: #000000;
+    color: #ffffff;
+}
+#menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: a;
+    width: 227px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.oii{
+    display: block;
+}
+
+footer{
+    font-family: sans-serif;
+    border-top: 2px solid #fff;
+    background: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: justify;
+}
+@font-face{
+    src: url(../Pacifico-Regular.ttf);
+    font-family: a;
+}
